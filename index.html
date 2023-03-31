@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>iChatStudent</title>
+</head>
+<body>
+    <main>
+        <header>
+        <div class="container">
+                <img src="./src/img/iChatStudent.jpg" alt="logo iChatStudent" class="logo">
+                <h1>Um lugar criado para adquirir e distribuir conhecimentos</h1>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.instagram.com/ichatstudents/" target="_blank"></a>Instagram</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="container">
+            <form method="post" onsubmit="return cadastrarUsuario()">
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Cadastrar">
+              </form>
+        </section>
+        <section class="container">
+            <form method="post" onsubmit="return validarUsuario()">
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Login">
+              </form>
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
