@@ -1,0 +1,138 @@
+@media (max-width:320px){
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+    }
+    
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    header img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    nav li {
+        margin: 0 5px;
+    }
+    
+    nav a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .button {
+        width: 120px;
+        height: 40px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+    
+    .button:hover {
+        background-color: #0056b3;
+    }
+}
+@media (max-width:320px){
+    .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0 5px;
+}
+
+nav a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+}

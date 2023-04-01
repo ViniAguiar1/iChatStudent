@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <title>iChatStudent</title>
 </head>
 <body>
@@ -15,14 +16,24 @@
         <div class="container">
                 <img src="./src/img/iChatStudent.jpg" alt="logo iChatStudent" class="logo">
                 <h1>Um lugar criado para adquirir e distribuir conhecimentos</h1>
-                <nav>
+                <!-- <nav>
                     <ul>
                         <li><a href="https://www.instagram.com/ichatstudents/" target="_blank"></a>Instagram</li>
                     </ul>
-                </nav>
+                </nav> -->
             </div>
         </header>
         <section class="container">
+            <div class="button-container">
+                <a href="./cadastro.html">
+                <button class="button">Cadastrar</button>
+                </a>
+                <a href="./login.html">
+                    <button class="button">Login</button>
+                    </a>
+              </div>          
+        </section>
+        <!-- <section class="container">
             <form method="post" onsubmit="return cadastrarUsuario()">
                 <label for="username">Nome de usuário:</label>
                 <input type="text" id="username" name="username"><br>
@@ -39,7 +50,7 @@
                 <input type="password" id="password" name="password"><br>
                 <input type="submit" value="Login">
               </form>
-        </section>
+        </section> -->
     </main>
     <script src="./src/js/script.js"></script>
 </body>

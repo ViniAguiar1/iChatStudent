@@ -1,0 +1,79 @@
+#cadastro {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  /* Estilos para telas menores que 321px */
+@media (max-width: 320px) {
+  .container {
+    padding: 10px;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav li {
+    margin: 0 5px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  #cadastro {
+    width: 280px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
