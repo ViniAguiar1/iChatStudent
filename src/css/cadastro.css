@@ -39,41 +39,55 @@
   input[type="submit"]:hover {
     background-color: #3e8e41;
   }
-  /* Estilos para telas menores que 321px */
-@media (max-width: 320px) {
-  .container {
-    padding: 10px;
-  }
+  @media (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
 
-  header img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 5px;
-  }
+    .logo {
+        max-width: 100%;
+    }
 
-  header h1 {
-    font-size: 24px;
-  }
+    .button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 
-  nav li {
-    margin: 0 5px;
-  }
+    .corpo {
+        padding: 0 16px;
+    }
 
-  nav a {
-    font-size: 14px;
-  }
+    .container1 {
+        font-size: 24px;
+        text-align: center;
+    }
 
-  #cadastro {
-    width: 280px;
-  }
+    .back {
+        flex-direction: column;
+    }
 
-  input[type="text"],
-  input[type="password"] {
-    font-size: 14px;
-  }
+    .h2s {
+        font-size: 20px;
+        text-align: center;
+    }
 
-  input[type="submit"] {
-    padding: 5px;
-    font-size: 14px;
-  }
+    .imgd {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .back2 {
+        flex-direction: column-reverse;
+    }
+
+    .h2s2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .imgd2 {
+        width: 100%;
+        margin: 16px 0;
+    }
 }
