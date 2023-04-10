@@ -105,3 +105,71 @@
         width: 250px;
     }
 }
+@media (max-width: 425px) {
+    body{
+        max-width: 100%;
+        min-height: 100%;
+    }
+      .container .logo {
+        margin-top: 22px;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        justify-content: center;
+      }
+      .container .button-container{
+        display: flex;
+        /* padding: 5px; */
+        gap: 5px;
+        margin-right: 400px;
+        margin-left: 230px;
+    }
+    .container .button{
+        font-size: 12px;
+        width: 100%;
+        /* padding: 10px; */
+        height: 50px;
+      }
+    .corpo .container1{
+        font-size: 20px;
+    }
+    .back .h2s{
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        /* justify-content: center; */
+        margin-right: 110px;
+        margin-left: 58px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .back .imgd{
+        margin-top: 110px;
+        padding-top: 20px;
+        width: 240px;
+    }
+    .back2 .text2{
+        font-size: 18px;
+        text-align: center;
+        /* justify-content: space-between; */
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 140px;
+    }
+  .back2  .imgd2{
+        align-items: center;
+        width: 275px;
+        margin-left: 65px;
+        margin-right: 75px;
+        /* margin-bottom: 75px; */
+        padding-bottom: 170px;
+        /* margin-right: 200; */
+    }
+    .back4 .h2s4{
+        font-size: 16px;
+    }
+    .imgd4{
+        width: 250px;
+    }
+}

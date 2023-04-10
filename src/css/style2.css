@@ -1,27 +1,35 @@
-/* body{
-    max-width: 100%;
-} */
+body{
+    /* max-width: 100%; */
+	background-color: #191e46;
+}
 .container {
-	background-size: cover;
+	/* background-size: cover; */
 	max-width: 1280px;
 	margin: auto;
 	padding: 30px;
+	/* background-color: #191e46; */
+}
+
+.container .button{
+	background-color: #191e46;
+	border: 2px solid white;
 }
 
 .corpo{
-	/*background-image: linear-gradient(to bottom, #8FBC8F, #90EE90);*/
-	background-color: #8FBC8F;
+	/* background-image: linear-gradient(to bottom, #8FBC8F, #90EE90); */
+	background-color: #191e46;
+	color: #fff;
 	position: absolute;
 	width: 100%;
 }
 
 .back{
-	background-color: #90EE90;
+	background-color: #15238f;
 	width: 100%;
 	
 }
 .back4{
-	background-color: #90EE90;
+	background-color: #15238f;
 	width: 100%;
     text-align: center;
     /* margin-top: 15px; */
@@ -32,7 +40,7 @@
 
 .back2{
 
-	background-color: #8FBC8F;
+	background-color: #191e46;
 	width: 100%;
 	
 }
@@ -153,7 +161,7 @@
 } */
 
 header {
-	background-color: #011706;
+	/* background-color: #011706; */
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	padding: 20px;
 	text-align: center;
@@ -163,12 +171,12 @@ header {
 header img {
 
 	position: absolute;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 	border-radius: 50%;
 	object-fit: cover;
 	left: 20px;
-	top: 5px;
+	top: 8px;
 }
 
 /*header h1 {
@@ -209,7 +217,7 @@ nav a {
   .button {
     width: 150px;
     height: 50px;
-    background-color: #022c16;
+    /* background-color: #022c16; */
     color: #fff;
     font-size: 18px;
     border: none;
