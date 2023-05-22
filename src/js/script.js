@@ -33,3 +33,4 @@ function validarUsuario() {
       return false;
     }
   }// Redireciona para a tela de chat
+  // window.location.href = "./chat.html";

@@ -25,3 +25,4 @@ document.querySelector(".send-button").addEventListener("click", function(event)
     event.preventDefault();
     sendMessage();
 });
+// window.location.href = "./chat.html";
