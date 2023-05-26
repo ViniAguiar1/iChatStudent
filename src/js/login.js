@@ -7,15 +7,15 @@ function validarLogin() {
     alert("Por favor, preencha todos os campos.");
     return false;
   }
-
+  
   // Verifica se o login é válido
   // Aqui você pode adicionar suas regras de validação personalizadas
-  if (username !== "admin" || password !== "senha") {
+  else if (username !== "admin" || password !== "senha") {
     alert("Credenciais inválidas. Por favor, tente novamente.");
     return false;
   }
-
+  
   // Login válido, redireciona para a página de cadastro
-  window.location.href = "cadastro.html";
+  window.location.href = "./chat.html";
 }
 

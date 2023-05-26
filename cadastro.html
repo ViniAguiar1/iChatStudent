@@ -29,8 +29,10 @@
                     <form method="post" onsubmit="return cadastrar()" action="https://api.sheetmonkey.io/form/nCatHS6M5hMNTSr2yFFBFt">
                         <label for="username">Nome de usuário:</label><br>
                         <input type="text" id="username" name="Name" required><br>
+                        <label for="email">Digite seu email:</label>
+                        <input type="email" name="Email" id="email">
                         <label for="password">Senha:</label><br>
-                        <input type="password" id="password" name="Password"><br>
+                        <input type="password" id="password" name="Password" required><br>
                         <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                         <input type="submit" value="Sign Up">
                       </form>

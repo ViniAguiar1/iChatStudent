@@ -1,9 +1,9 @@
 function cadastrar() {
-  var nome = document.getElementById("nome").value;
+  let nome = document.getElementById("nome").value;
   var email = document.getElementById("email").value;
 
   // Crie um objeto com os dados do cadastro
-  var usuario = {
+  let usuario = {
     nome: nome,
     email: email
   };
