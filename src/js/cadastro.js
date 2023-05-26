@@ -12,6 +12,6 @@ function cadastrar() {
   localStorage.setItem("usuario", JSON.stringify(usuario));
 
   // Redirecione para a página de sucesso
-  window.location.href = "sucesso.html";
+  // window.location.href = "sucesso.html";
 }
 
