@@ -16,6 +16,6 @@ function validarLogin() {
   }
   
   // Login válido, redireciona para a página de cadastro
-  window.location.href = "./chat.html";
+  // window.location.href = "./chat.html";
 }
 
